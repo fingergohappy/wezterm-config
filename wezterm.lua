@@ -19,7 +19,7 @@ config.color_scheme = 'Monokai Pro (Gogh)'
 
 config.font =
 -- wezterm.font('MonacoLigaturized Nerd Font Mono', { weight = 'Bold', italic = true })
-    wezterm.font('Maple Mono NF', { weight = 'Bold', italic = true })
+    wezterm.font('IosevkaTerm Nerd Font', { weight = 'Bold', italic = true })
 -- MapleMono-NF-Regular
 config.bold_brightens_ansi_colors = "BrightOnly"
 config.font_size = 15
@@ -27,7 +27,7 @@ config.adjust_window_size_when_changing_font_size = true
 -- 中文显示
 config.font = wezterm.font_with_fallback {
   {
-    family = 'Maple Mono NF'
+    family = 'IosevkaTerm Nerd Font'
   },
   {
     family = 'LXGW WenKai Mono'
